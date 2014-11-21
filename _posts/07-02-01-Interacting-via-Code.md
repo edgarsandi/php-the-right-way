@@ -23,7 +23,7 @@ Esta é uma má prática por várias razões, principalmente por ser difícil de
 saída um monte de campos se não houver um limite.
 
 Embora existam muitas outras soluções para fazer isso - dependendo se você preferir a 
-[OOP](/#programacao_orientada_objetos) ou [programação funcional](/#programacao_funcional) - deve haver algum elemento 
+[OOP]({{ site.baseurl }}#programacao_orientada_objetos) ou [programação funcional]({{ site.baseurl }}#programacao_funcional) - deve haver algum elemento 
 de separação.
 
 Considere o passo mais básico:
@@ -43,7 +43,7 @@ Este é um bom começo. Coloque estes dois itens em dois arquivos diferentes e v
 
 Crie uma classe para colocar este método e você terá um "Modelo". Criando um arquivo `.php` simples para colocar a 
 lógica de apresentação e você terá uma "View", que é quase um [MVC] - uma arquitura OOP comum para a maioria dos 
-[frameworks](/#frameworks).
+[frameworks]({{ site.baseurl }}#frameworks).
 
 **foo.php**
 
@@ -92,7 +92,7 @@ class Foo()
 
 Isto é essenciamente o mesmo que a maioria dos frameworks modernos fazem, todos sejam eles um pouco mais manual. Você 
 pode não precisar de tudo a todo momento, mas misturando muita lógica de apresentação e interação com o banco de dados 
-pode ser um problema real se você quiser [testes unitários](/#testes_unitarios) em sua aplicação.
+pode ser um problema real se você quiser [testes unitários]({{ site.baseurl }}#testes_unitarios) em sua aplicação.
 
 [PHPBridge] tem um grande recurso chamado [Criando uma classe de dados] que aborda um tópico muito similar e é ótimo 
 para os desenvolvedores se acostumar ao o conceito de interagir com o banco de dados.
