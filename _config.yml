@@ -1,5 +1,5 @@
 safe: true
-baseurl: /
+baseurl: http://br.phptherightway.com/
 url: http://localhost:4000
 
 timezone: "America/Sao_Paulo"
