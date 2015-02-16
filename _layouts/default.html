@@ -35,15 +35,15 @@
         <nav class="site-navigation">
             <div class="build-date">Última atualização: {{ site.time | date: "%d/%m/%Y %H:%M:%S"}}</div>
             <ul>
-                <li><a href="/#site-header">Bem vindo</a></li>
+                <li><a href="{{ site.baseurl }}/#site-header">Bem vindo</a></li>
                 {% assign lastIsChild = false %}
                 {% for post in site.posts reversed %}
                     {% if post.isChild and lastIsChild != true %}<ul>{% endif %}
                     {% if lastIsChild and post.isChild != true %}</ul>{% endif %}
-                    <li><a href="/#{{ post.anchor }}">{{ post.title }}</a>
+                    <li><a href="{{ site.baseurl }}/#{{ post.anchor }}">{{ post.title }}</a>
                     {% assign lastIsChild = post.isChild %}
                 {% endfor %}
-                <li><a href="/#site-footer">Créditos</a></li>
+                <li><a href="{{ site.baseurl }}/#site-footer">Créditos</a></li>
             </ul>
         </nav>
         <div class="site-content">
