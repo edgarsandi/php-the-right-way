@@ -9,8 +9,8 @@ anchor: componentes
 Como mencionado acima "Componentes" são são uma outra abordagem comum para a o objetivo comum de criação, distribuição
 e implementação de código compartilhado. Existem vários repositórios de componentes, os dois principais são:
 
-* [Packagist](/#composer_and_packagist)
-* [PEAR](/#pear)
+* [Packagist]({{ site.baseurl }}#composer_and_packagist)
+* [PEAR]({{ site.baseurl }}#pear)
 
 Ambos repositórios possuem ferramentas de linha de comando para ajudar a instalação e processos de atualização, e foram 
 explicados com mais detalhes na seção [Gerenciamento de Dependência]
@@ -22,7 +22,7 @@ específicas.
 Por exemplo, você pode usar o [FuelPHP Validation package] sem precisar usar o framework
 FuelPHP em si.
 
-  [Gerenciamento de Dependência]: /#dependency_management
+  [Gerenciamento de Dependência]: {{ site.baseurl }}#dependency_management
   [FuelPHP Validation package]: https://github.com/fuelphp/validation
 
 * [Aura](http://auraphp.github.com/)
